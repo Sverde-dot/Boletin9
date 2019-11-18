@@ -1,6 +1,3 @@
-package boletin9.pkg3;
-
-import java.util.Scanner;
 
 public class clase3 {
     private int bas;
@@ -18,8 +15,12 @@ public class clase3 {
         return bas;  
 }
     public void calcularA(){
-        do{
-        System.out.println("La area es "+(bas+alt)/2);
-        }while(bas>=1 && alt>=1); 
+    do{    
+        pedirBas();
+    }while (bas<=0);
+    do{
+    pedirAlt();
+    }while (alt<=0);
+    System.out.println("O valor do área é: "+bas*alt);
     }
 }
