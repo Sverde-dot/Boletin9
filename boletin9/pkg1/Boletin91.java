@@ -16,7 +16,7 @@ public class Boletin91 {
      */
     public static void main(String[] args) {
         clase1 obx = new clase1();
-        obx.pedirDatos();
+        
         obx.verDatos();
     }
     
