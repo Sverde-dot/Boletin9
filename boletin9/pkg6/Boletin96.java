@@ -16,7 +16,7 @@ public class Boletin96 {
      */
     public static void main(String[] args) {
         clase6 obx=new clase6();
-        obx.metodo();
+        obx.calcular();
     }
     
 }
