@@ -13,6 +13,7 @@ public class SecionC {
     }
     public void sucesionC(){
     pedirInt();
+    System.out.println("0");
     int acuA,acuB=1,acuC=0;
     int cont;int acu1=0;
     for (cont=0;cont<num;cont++){
